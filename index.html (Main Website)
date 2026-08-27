@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Performance Marketing Specialist</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="logo">AdTrackPro</div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="admin/">ADMIN</a></li>
+    <li><a href="#home">HOME</a></li>
+    <li><a href="#portfolio">PORTFOLIO</a></li>
+    <li><a href="#reviews">CLIENT REVIEW</a></li>
+    <li><a href="#services">MY SERVICE</a></li>
+    <li><a href="#about">ABOUT ME</a></li>
+    <li><a href="#contact">CONTACT US</a></li>
+  </ul>
+  <div class="menu-toggle" onclick="document.getElementById('navLinks').classList.toggle('active')">
+    <i class="fas fa-bars"></i>
+  </div>
+</nav>
+
+<!-- HOME -->
+<section class="hero" id="home">
+  <h1>Performance <span>Marketing Specialist</span></h1>
+  <p>Data-driven paid ads + precise tracking infrastructure for maximum ROI.</p>
+  <a href="#services" class="btn">My Services</a>
+</section>
+
+<!-- ABOUT ME (তোমার দেওয়া টেক্সট) -->
+<section class="section" id="about">
+  <h2 class="title">ABOUT ME</h2>
+  <div class="box">
+    <p>I'm a Performance Marketing Specialist focused on driving measurable growth and maximizing ROI through data-driven strategy and precise tracking infrastructure. From running paid campaigns across multiple platforms to building end-to-end tracking systems, I manage the entire funnel — from ad spend to accurate conversion data.</p>
+    
+    <h3>Paid Advertising Expertise:</h3>
+    <ul>
+      <li>Facebook Ads Campaigns – Audience research, creative testing, and budget optimization to build high-converting campaigns</li>
+      <li>Instagram Ads – Full-funnel campaign management from brand awareness to conversion</li>
+      <li>TikTok Ads – Trend-driven creative strategy and campaign setup targeting younger, high-engagement audiences</li>
+      <li>Google Ads – Driving high-intent traffic through Search, Display, Shopping, and Performance Max campaigns</li>
+    </ul>
+
+    <h3>Tracking & Analytics Expertise:</h3>
+    <ul>
+      <li>Facebook Pixel – Accurate event tracking setup to ensure reliable conversion data</li>
+      <li>Google Tag Manager (GTM) – Managing complex tags, triggers, and variables without touching backend code</li>
+      <li>GA4 (Google Analytics 4) – User behavior analysis, custom event tracking, and reporting dashboards</li>
+      <li>Server-Side Tracking – Implementing Conversion API and Server-Side GTM to reduce data loss and improve attribution accuracy in the post-iOS 14 and cookie-restricted era</li>
+    </ul>
+
+    <p>My goal isn't just to run campaigns — it's to build a complete tracking and analytics ecosystem that accurately measures every ad dollar's performance and enables truly data-driven decision-making.</p>
+  </div>
+</section>
+
+<!-- MY SERVICE -->
+<section class="section services" id="services">
+  <h2 class="title">MY SERVICE</h2>
+  <div class="grid">
+    <div class="card"><i class="fab fa-facebook"></i><h3>Facebook Ads</h3><p>Audience research & budget optimization.</p></div>
+    <div class="card"><i class="fab fa-instagram"></i><h3>Instagram Ads</h3><p>Full-funnel brand to conversion.</p></div>
+    <div class="card"><i class="fab fa-tiktok"></i><h3>TikTok Ads</h3><p>Trend-driven creative strategy.</p></div>
+    <div class="card"><i class="fab fa-google"></i><h3>Google Ads</h3><p>Search, Display, Shopping, PMax.</p></div>
+    <div class="card"><i class="fas fa-code"></i><h3>Facebook Pixel</h3><p>Accurate event tracking.</p></div>
+    <div class="card"><i class="fas fa-tags"></i><h3>Google Tag Manager</h3><p>Tags & triggers without backend.</p></div>
+    <div class="card"><i class="fas fa-chart-line"></i><h3>GA4</h3><p>Custom events & dashboards.</p></div>
+    <div class="card"><i class="fas fa-server"></i><h3>Server-Side Tracking</h3><p>CAPI & Server GTM setup.</p></div>
+  </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section class="section" id="portfolio">
+  <h2 class="title">PORTFOLIO</h2>
+  <div class="grid">
+    <div class="card"><h3>FB + Insta Scaling</h3><p>3.2x ROAS with Pixel + CAPI.</p></div>
+    <div class="card"><h3>TikTok Launch</h3><p>40% lower CPA with Spark Ads.</p></div>
+    <div class="card"><h3>GA4 Overhaul</h3><p>Full tracking ecosystem built.</p></div>
+    <div class="card"><h3>Google Lead Gen</h3><p>PMax + offline conversions.</p></div>
+  </div>
+</section>
+
+<!-- CLIENT REVIEW -->
+<section class="section reviews" id="reviews">
+  <h2 class="title">CLIENT REVIEW</h2>
+  <div class="grid">
+    <div class="card"><div>★★★★★</div><p>"Outstanding results after server-side tracking."</p><h4>- Rahim Ahmed</h4></div>
+    <div class="card"><div>★★★★★</div><p>"Best media buyer we've worked with."</p><h4>- Sarah Khan</h4></div>
+    <div class="card"><div>★★★★★</div><p>"GTM + GA4 + CAPI flawless setup."</p><h4>- Imran Hossain</h4></div>
+  </div>
+</section>
+
+<!-- CONTACT US -->
+<section class="contact" id="contact">
+  <h2>CONTACT US</h2>
+  <p>Ready to scale? Email or WhatsApp me.</p>
+  <a href="mailto:your.email@gmail.com" class="btn">Send Email</a>
+</section>
+
+<footer>
+  © 2025 Your Name | Performance Marketing Specialist
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
